@@ -1,0 +1,4 @@
+site_name: My demo Page (Urbanovics)
+site_url: https://qa-urbanovics.github.io/web-1
+theme:
+  name: material
