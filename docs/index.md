@@ -1,17 +1,38 @@
-# Welcome to MkDocs
+# Привет, я Aleksejs 👋  
+**QA Engineer с DevOps-мышлением**: делаю тестирование быстрым, надёжным и наблюдаемым.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<div class="grid cards" markdown>
 
-## Commands
+- :material-rocket-launch: **Моя миссия**
+  
+  Делать релизы предсказуемыми: автоматизация, CI/CD-качество, метрики, быстрый feedback.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- :material-shield-check: **QA**
+  
+  Test strategy, автотесты, API/UI, качество требований, тест-дизайн, тест-данные.
 
-## Project layout
+- :material-cube-outline: **DevOps**
+  
+  Pipelines, Docker, environments, observability, “shift-left”, стабильные стенды.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- :material-video-outline: **Влог**
+  
+  Короткие заметки о фейлах, находках, паттернах и инструментах.  
+  (Секции ниже — как шаблон под посты/видео)
+
+</div>
+
+---
+
+## Последние заметки
+> Тут можно держать 3–5 ссылок на свежие посты из блога.
+
+- :material-newspaper: [Как я ускоряю проверки в CI](blog/posts/2026-02-19-ci-fast-feedback.md)
+- :material-newspaper: [Чек-лист “готово к релизу”](blog/posts/2026-02-19-release-checklist.md)
+
+---
+
+## Быстрые ссылки
+- [Обо мне](about.md)
+- [Проекты](projects.md)
+- [QA × DevOps практики](practices.md)

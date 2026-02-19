@@ -1,4 +1,65 @@
-site_name: My demo Page (Urbanovics)
-site_url: https://qa-urbanovics.github.io/web-1
+site_name: "Aleksejs Urbanovics — QA × DevOps"
+site_description: "QA Engineer / DevOps-minded tester • Автоматизация • CI/CD • Наблюдаемость"
+site_url: "https://qa-urbanovics.github.io/web-1/"
+
+repo_url: "https://github.com/qa-urbanovics/web-1"
+repo_name: "qa-urbanovics/web-1"
+edit_uri: "edit/main/docs/"
+
 theme:
   name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    # Dark — по умолчанию
+    - scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+    # Light — опционально
+    - scheme: default
+      primary: white
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+
+extra_css:
+  - styles/neon.css
+
+nav:
+  - Главная: index.md
+  - Обо мне: about.md
+  - QA × DevOps:
+      - Мой стек: stack.md
+      - Практики: practices.md
+  - Проекты: projects.md
+  - Блог: blog/index.md
+
+plugins:
+  - search
+  - blog
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_sv
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
