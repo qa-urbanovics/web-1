@@ -40,7 +40,7 @@ extra_css:
 nav:
   - Главная: index.md
   - Обо мне: about.md
-  - QA × DevOps:
+  - QA Manager × DevOps:
       - Мой стек: stack.md
       - Практики: practices.md
   - Проекты: projects.md
